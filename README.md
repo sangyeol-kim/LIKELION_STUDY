@@ -1,4 +1,4 @@
-# AUSG_Study
+# LIKELION_Study
 멋쟁이 사자처럼 7기 운영진 교육 스터디 (강남2팀)
 
 ## 스터디 규칙
