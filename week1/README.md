@@ -4,11 +4,7 @@
 - [자료형](https://github.com/sangyeol-kim/LIKELION_STUDY/tree/master/week1/sangyeol)
 
 ### 김범식
-- [제어문](/)
+- [제어문](#)
 
 ### 하주현
-- [입출력](/)
-
-# 참고자료
-
-- inflearn / JS flow
+- [입출력](#)
