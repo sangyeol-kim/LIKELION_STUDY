@@ -1,6 +1,6 @@
 # Python Study 1주차
 
-## Type
+## Data Type
 
 ### 1. Number Type
 
