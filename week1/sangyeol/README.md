@@ -1,4 +1,4 @@
-# Python Study
+# Python Study 1주차
 
 ## Type
 
