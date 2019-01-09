@@ -19,9 +19,9 @@
 ## 6. Membership (멤버쉽 연산자)
 - in, not in
     ```python
-        >>> str = [1, 2, 3]
-        >>> 3 in str
-        >>> True
+    >>> str = [1, 2, 3]
+    >>> 3 in str
+    >>> True
     ```
 
 ## END

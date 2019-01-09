@@ -3,7 +3,7 @@
 - 멀티라인 스트링을 위해서는 """ / '''를 사용하면 된다.
 
 ```python
-    >>> my_str = '''abc'''
+>>> my_str = '''abc'''
 ```
 
 ### 1. Formatting
@@ -11,8 +11,8 @@
 - 문자열에 숫자나 문자를 대입할 수 있다.
 
 ```python
-    >>> my_str = 'my name is %s' % 'choi'
-    >>> '%d %d' % (1, 2)
+>>> my_str = 'my name is %s' % 'choi'
+>>> '%d %d' % (1, 2)
 ```
 
 - 조금 더 파이썬스러운 방법이 있다.
@@ -20,9 +20,9 @@
 - '{}'.format()
 
 ```python
-    '>>> my same is {}'.format('choi')
-    '>>> {} x {} = {}'.format(2, 3, 2*3)
-    '>>> {1} x {0} = {2}'.format(2, 3, 2*3) # 이런식으로 순서를 지정할 수도 있다.
+'>>> my same is {}'.format('choi')
+'>>> {} x {} = {}'.format(2, 3, 2*3)
+'>>> {1} x {0} = {2}'.format(2, 3, 2*3) # 이런식으로 순서를 지정할 수도 있다.
 ```
 
 ### 2. Indexing (1개씩)
@@ -30,7 +30,7 @@
 - 위치에 따라 주소가 있다. (배열 개념)
 
 ```python
-    my_name = '가나다라' # 0~3의 index를 가짐
+my_name = '가나다라' # 0~3의 index를 가짐
 ```
 
 ### 3. Slicing (여러개씩)
@@ -39,9 +39,9 @@
 - str[s:e]
 
 ```python
-    >>> str = 'string'
-    >>> str[0:3]
-    >>> 'strr'
+>>> str = 'string'
+>>> str[0:3]
+>>> 'strr'
 ```
 
 ### 4. Method
@@ -51,9 +51,9 @@
 - 함수는 함순데 특정 자료형만이 사용할 수 있는 함수
 
 ```python
-    >>> my_name = 'hi yo'
-    >>> my_name.split()
-    >>> ['hi', 'yo'] # split 메서드는 공백을 기준으로 자른다.
+>>> my_name = 'hi yo'
+>>> my_name.split()
+>>> ['hi', 'yo'] # split 메서드는 공백을 기준으로 자른다.
 ```
 
 ### 5. Docstring

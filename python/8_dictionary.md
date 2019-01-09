@@ -7,21 +7,21 @@
 - Dictionary Method
     - dict.values() // value만 출력
         ```python
-            >>> my_dic = {1: 'one', 2: 'two'}
-            >>> for std in my_dic.values():
-            >>>     print(std)
+        >>> my_dic = {1: 'one', 2: 'two'}
+        >>> for std in my_dic.values():
+        >>>     print(std)
         ```
     - dic.keys() // key만 출력
         ```python
-            >>> my_dic = {1: 'one', 2: 'two'}
-            >>> for std in my_dic.keys():
-            >>>    print(std)
+        >>> my_dic = {1: 'one', 2: 'two'}
+        >>> for std in my_dic.keys():
+        >>>    print(std)
         ```
     - dic.items() // 모두 출력
         ```python
-            >>> my_dic = {1: 'one', 2: 'two'}
-            >>> for std in my_dic.items():
-            >>>    print(std)
+        >>> my_dic = {1: 'one', 2: 'two'}
+        >>> for std in my_dic.items():
+        >>>    print(std)
         ```
 
 ## END

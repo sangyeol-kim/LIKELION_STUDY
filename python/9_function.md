@@ -4,20 +4,20 @@
 
 - 함수 원형
     ```python
-        def function(parameter1, ...):
-            command1
-            command2
+    def function(parameter1, ...):
+        command1
+        command2
 
-            return result
+    return result
     ```
 - 여러개의 결과를 돌려받는 법
 
     ```python
-        def function(parameter1, parameter2):
-            command1
-            command2
+    def function(parameter1, parameter2):
+        command1
+        command2
 
-            return result1, result2
+    return result1, result2
     ```
 
 - 함수의 반환이 2개여도 2개로 날아오는게 아니라 하나의 튜플로 던진다
