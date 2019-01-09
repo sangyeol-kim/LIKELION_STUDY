@@ -3,20 +3,19 @@
 ### Hello, world 출력하는 웹 만들기
 
 1. Django Project
+    - 프로젝트 생성
 
-- 프로젝트 생성
+    ```$ django-admin startproject myproject```
 
-```$ django-admin startproject myproject```
-
-```
-manage.py
-myproject
-├── __pycache__
-├── __init__.py
-├── wsgi.py
-├───settings.py
-└── url.py
-```
+    ```
+    manage.py
+    myproject
+    ├── __pycache__
+    ├── __init__.py
+    ├── wsgi.py
+    ├───settings.py
+    └── url.py
+    ```
 
 2. App
 > App은 장고 프로젝트의 구성 단위입니다.
