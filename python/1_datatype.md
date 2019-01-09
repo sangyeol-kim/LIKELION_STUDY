@@ -1,5 +1,3 @@
-# Python Study 1주차
-
 ## Data Type
 
 ### 1. Number Type
@@ -43,10 +41,10 @@
 >>> string[0]
 >>> 'h'
 
->>> string[-1] // -기호를 붙이면 뒤에서부터 센다.
+>>> string[-1] # -기호를 붙이면 뒤에서부터 센다.
 >>> 'o'
 
->>> string2 = string[0] + string[1] // string[0:1]
+>>> string2 = string[0] + string[1] # == string[0:1]
 >>> string2
 >>> 'he'
 ```
