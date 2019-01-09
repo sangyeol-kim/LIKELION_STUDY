@@ -7,7 +7,7 @@
 
     ```$ django-admin startproject myproject```
 
-        프로젝트를 생성하면 두 개의 myproject 폴더가 생성됩니다. 두 개의 폴더명이 같으니 상위 폴더의 이름을 django_project로 변경해주세요
+        - 프로젝트를 생성하면 두 개의 myproject 폴더가 생성됩니다. 두 개의 폴더명이 같으니 상위 폴더의 이름을 django_project로 변경해주세요
 
     ```$ cd django_project```
 
@@ -29,7 +29,7 @@
 
     ```$ python3 manage.py startapp myapp```
 
-        해당 명령어를 실행하면 django_project 내의 myapp 폴더가 생성됩니다.
+        - 해당 명령어를 실행하면 django_project 내의 myapp 폴더가 생성됩니다.
 
     ```
     myapp
