@@ -48,11 +48,13 @@
 
     - settings.py에 app 추가
         ```python
+        ...
         INSTALLED_APPS = {
             ...
             'myapp.apps.MyappConfig
             ...
         }
+        ...
         ```
     > <app_name>.apps.<app_name>Config가 기본형이며 apps뒤의 <app_name>의 첫 글자는 대문자로 작성해야 합니다.
 
@@ -67,8 +69,10 @@
     > 유저에게 보여질 화면(html)을 어떻게 처리할지 처리하는 함수를 작성합니다.
     - views.py에 함수 작성
     ```python
+    ...
     def home(request):
         return render(request, 'home.html')
+    ...
     ```
     > 단순히 요청이 들어오면 home.html을 열어주는 함수입니다.
 
@@ -77,7 +81,6 @@
     > 이제 내가 생성한 html 파일을 어떤 URL로 접근했을 때 보여줄지를 처리합니다.
     - urls.py에 코드 작성
     ```python
-    from django.contrib import admin
     ...
     import myapp.views # views.py에서 작성한 함수를 불러오기
     ...
