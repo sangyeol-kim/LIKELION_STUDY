@@ -1,13 +1,12 @@
 ## Hello, world
 
-### 1. Django의 이해
-
-- Django는 어떻게 작동할까?
+### Hello, world 출력하는 웹 만들기
 
 1. Django Project
 
     - 프로젝트 생성
-    ```$ django-admin startproject myproject ```
+
+    ```$ django-admin startproject myproject```
 
     ```
     manage.py
@@ -23,6 +22,7 @@
     > App은 장고 프로젝트의 구성 단위입니다.
 
     - App 생성
+    
     ```$ python3 manage.py startapp <myapp>```
 
     ```
