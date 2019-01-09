@@ -1,4 +1,4 @@
-# Pythob_Study
+# Python_Study
 
 ## 주제
 - Python3
