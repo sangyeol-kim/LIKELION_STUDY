@@ -50,7 +50,7 @@
 
     > Templates는 유저가 보는 화면(html)을 담당하며 MVC 패턴에서의 View 역할입니다.
     - app 폴더안에 templates 폴더를 생성
-    - templates 폴더 안에 hello.html을 생성하고 파일안에 <h1>hello, wolrd</h1>를 작성합니다.
+    - templates 폴더 안에 hello.html을 생성하고 파일안에 ``` <h1>hello, wolrd</h1> ```를 작성합니다.
 
 5. **App에 함수 작성하기**
 
@@ -76,6 +76,7 @@
         path('', hello.views.home, name='home')
         ...
     ]
+    ...
     ```
     > path는 세 가지 인자로 route, views.py에 정의한 함수, 특정 name을 가진 함수를 받습니다.
 
