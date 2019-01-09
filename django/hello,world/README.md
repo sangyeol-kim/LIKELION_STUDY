@@ -1,6 +1,4 @@
-## Hello, world
-
-### Hello, world 출력하는 웹 만들기
+## Hello, world 출력하는 웹 만들기
 
 1. **Django Project**
     - 프로젝트 생성
