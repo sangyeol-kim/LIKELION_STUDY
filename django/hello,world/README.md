@@ -8,8 +8,12 @@
     - 프로젝트 생성
 
     ```$ django-admin startproject myproject```
-    
-    가나다라
+
+    프로젝트를 생성하면 두 개의 myproject 폴더가 생성됩니다.
+
+    두 개의 폴더명이 같으니 상위 폴더의 이름을 django_project로 변경해주세요
+
+    ```$ cd django_project```
 
     ```
     manage.py
@@ -20,13 +24,6 @@
     ├───settings.py
     └── url.py
     ```
-
-    > 프로젝트를 생성하면 두 개의 myproject 폴더가 생성됩니다.
-
-    > 두 개의 폴더명이 같으니 상위 폴더의 이름을 django_project로 변경해주세요.
-
-    ```$ cd django_project```
-    
 
 2. **App**
     > App은 장고 프로젝트의 구성 단위입니다.
