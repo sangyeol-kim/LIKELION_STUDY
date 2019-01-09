@@ -1,12 +1,18 @@
 ## Hello, world 출력하는 웹 만들기
 
-> 들어가기 전에 해당 실습은 venv를 이용한 가상환경을 사용합니다.
+> 해당 실습은 venv를 이용한 가상환경을 사용합니다.
+
 > 가상환경이 준비가 안되신 분들은 [Django Setting](https://github.com/sangyeol-kim/python_study/tree/master/django/setting) 를 참고해주세요.
 
 1. **Django Project**
     - 프로젝트 생성
 
     ```$ django-admin startproject myproject```
+
+        - 프로젝트를 생성하면 두 개의 myproject 폴더가 생성됩니다.
+        - 상위 폴더의 이름을 django_project로 변경해주세요.
+
+    ``` cd django_project```
 
     ```
     manage.py
@@ -18,12 +24,20 @@
     └── url.py
     ```
 
+    > 프로젝트를 생성하면 myproject안의 myproject 폴더가 생성됩니다.
+
+    > 두 개의 폴더명이 같으니 상위 폴더의 이름을 django_project로 변경해주세요.
+
+    
+
 2. **App**
     > App은 장고 프로젝트의 구성 단위입니다.
 
     - App 생성
 
-    ```$ python3 manage.py startapp <myapp>```
+    ```$ python3 manage.py startapp myapp```
+
+        - 해당 명령어를 실행하면 django_project 내의 myapp 폴더가 생성됩니다.
 
     ```
     myapp
@@ -52,7 +66,7 @@
 4. **Templates 생성**
 
     > Templates는 유저가 보는 화면(html)을 담당하며 MVC 패턴에서의 View 역할입니다.
-    - app 폴더안에 templates 폴더를 생성
+    - myapp 폴더안에 templates 폴더를 생성
     - templates 폴더 안에 hello.html을 생성하고 파일안에 ``` <h1>hello, wolrd</h1> ```를 작성합니다.
 
 5. **App에 함수 작성하기**
@@ -61,9 +75,9 @@
     - views.py에 함수 작성
     ```python
     def home(request):
-        return render(request, 'hello.html')
+        return render(request, 'home.html')
     ```
-    > 단순히 요청이 들어오면 hello.html을 열어주는 함수입니다.
+    > 단순히 요청이 들어오면 home.html을 열어주는 함수입니다.
 
 6. **URL 요청을 뷰에 연결하기**
 
@@ -72,12 +86,11 @@
     ```python
     from django.contrib import admin
     ...
-    import hello.views # views.py에서 작성한 함수를 불러오기
+    import myapp.views # views.py에서 작성한 함수를 불러오기
     ...
     urlpatterns = [
         ...
-        path('', hello.views.home, name='home')
-        ...
+        path('', myapp.views.home, name='home')
     ]
     ...
     ```
