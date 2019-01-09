@@ -1,26 +1,25 @@
 ## Hello, world 출력하는 웹 만들기
 
-> 해당 실습은 venv를 이용한 가상환경을 사용합니다.
-
-> 가상환경이 준비가 안되신 분들은 [Django Setting](https://github.com/sangyeol-kim/python_study/tree/master/django/setting) 를 참고해주세요.
+> 해당 실습은 venv를 이용한 가상환경을 사용합니다. 가상환경이 준비가 안되신 분들은 [Django Setting](https://github.com/sangyeol-kim/python_study/tree/master/django/setting) 를 참고해주세요.
 
 1. **Django Project**
     - 프로젝트 생성
 
     ```$ django-admin startproject myproject```
 
-    > 프로젝트를 생성하면 두 개의 myproject 폴더가 생성됩니다. 두 개의 폴더명이 같으니 상위 폴더의 이름을 django_project로 변경해주세요
+        - 프로젝트를 생성하면 두 개의 myproject 폴더가 생성됩니다. 두 개의 폴더명이 같으니 상위 폴더의 이름을 django_project로 변경해주세요
 
     ```$ cd django_project```
 
     ```
-    manage.py
-    myproject
-    ├── __pycache__
-    ├── __init__.py
-    ├── wsgi.py
-    ├───settings.py
-    └── url.py
+    django_project
+    ├── manage.py
+    ├── myproject
+        ├── __pycache__
+        ├── __init__.py
+        ├── wsgi.py
+        ├───settings.py
+        └── url.py
     ```
 
 2. **App**
