@@ -1,6 +1,6 @@
 ## Setting
 
-    - 해당 문서는 venv를 이용한 가상환경을 사용합니다.
+- 해당 문서는 venv를 이용한 가상환경을 사용합니다.
 
 ### 1. venv Setting (virtualEnv)
 
@@ -21,7 +21,8 @@
 
 ### 2. Django Setting
 
-- ``` $ pip3 install Django ```
+- 기본 설치
+    - ``` $ pip3 install Django ```
 
 - 특정 버전의 장고를 설치하는 방법
 
