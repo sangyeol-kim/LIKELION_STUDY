@@ -8,6 +8,7 @@
     - 프로젝트 생성
 
     ```$ django-admin startproject myproject```
+    
     가나다라
 
     ```
