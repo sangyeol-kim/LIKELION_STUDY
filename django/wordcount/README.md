@@ -23,7 +23,7 @@
         ```python
         INSTALLED_APPS = {
             ...
-            'wordcount.apps.WordappConfig
+            'wordcount.apps.WordcountConfig
             ...
         }
         ```
@@ -65,6 +65,7 @@
 
 7. **본격적인 기능 구현**
     > 지금까지의 내용은 hello, world에서 진행한 실습과 동일한 내용이였습니다.
+
     > 지금부터는 단어를 입력받고 카운트하는 기능을 구현해보겠습니다.
 
     - New Page 만들기
@@ -183,7 +184,7 @@
         > 지금까지 작성한 Count Function을 템플릿에 표시합니다.
         - count.html을 다음과 같이 수정합니다.
             ```html
-            <h1>입력한 텍스트는 단어수는 {{ totla }} 입니다.</h1>
+            <h1>입력한 텍스트는 단어수는 {{ total }}개 입니다.</h1>
             <a href="{% url 'home' %}"> 글 쓰기</a>
 
             <h1>입력한 텍스트: </h1>
@@ -191,7 +192,7 @@
 
             <h1>단어 카운트:</h1>
             {% for word, count in dictionary %}
-            {{ word }} - {{ count }}
+            {{ word }} - {{ count }}개 <br>
             {% endfor %}
             ```
 
