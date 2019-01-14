@@ -13,7 +13,7 @@
 - MacOS
 
     - ``` $ python3 -m venv <가상환경_이름> ```
-    - ``` $ sources <가상환경_이름>/bin/activate ```
+    - ``` $ source <가상환경_이름>/bin/activate ```
     > 해당 명령어를 실행하면 가상환경으로 진입하게 됩니다.
 
 - 가상환경을 비활성화 하는 방법
