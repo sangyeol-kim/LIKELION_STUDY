@@ -7,15 +7,14 @@
     - 프로젝트 생성
 
     ```$ django-admin startproject wordproject```
-    > 상위 프로젝트 폴더의 이름을 django_project로 변경해주세요
 
-    ```$ cd django_project```
+    ```$ cd wordproject```
 
 2. **App**
 
     - App 생성
 
-    ```$ python3 manage.py startapp wordcount```
+    ```$ python manage.py startapp wordcount```
 
 3. **Project와 App 연결하기**
 
@@ -199,7 +198,7 @@
 8. **서버 실행하기**
 
     ```
-    $ python3 manage.py runserver
+    $ python manage.py runserver
     ```
     > 서버는 ctrl+c로 종료할 수 있습니다.
 
