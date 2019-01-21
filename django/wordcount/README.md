@@ -6,15 +6,15 @@
 1. **Word Count**
     - 프로젝트 생성
 
-    ```$ django-admin startproject wordproject```
+        ```$ django-admin startproject wordproject```
 
-    ```$ cd wordproject```
+        ```$ cd wordproject```
 
 2. **App**
 
     - App 생성
 
-    ```$ python manage.py startapp wordcount```
+        ```$ python manage.py startapp wordcount```
 
 3. **Project와 App 연결하기**
 

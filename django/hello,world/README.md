@@ -7,7 +7,7 @@
 
     - 프로젝트 생성
 
-    `$ django-admin startproject myproject`
+        `$ django-admin startproject myproject`
 
     ```
     myproject
@@ -26,7 +26,7 @@
 
     - App 생성
 
-    `$ python manage.py startapp myapp`
+        `$ python manage.py startapp myapp`
 
         - 해당 명령어를 실행하면 myproject 내에 myapp 폴더가 생성됩니다.
 
