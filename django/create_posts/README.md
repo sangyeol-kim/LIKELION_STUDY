@@ -3,7 +3,7 @@
 > 해당 실습은 venv를 이용한 가상환경을 사용합니다.
 > 가상환경이 준비가 안되신 분들은 [Django Setting](https://github.com/sangyeol-kim/python_study/tree/master/django/setting) 를 참고해주세요.
 
-1. **Word Count**
+1. **Posts Create**
 
    - 프로젝트 생성
 
