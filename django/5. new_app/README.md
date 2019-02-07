@@ -168,10 +168,10 @@
 
     ```python
         from django.shortcuts import render
-        from .models import Portfolio
+        from .models import Board
 
         def Board(request):
-            portfolios = Portfolio.objects
+            boards = Board.objects
             return render(request, 'board/board.html', {'boards': boards})
     ``` 
 
