@@ -95,6 +95,8 @@
    - urls.py에 코드 작성
 
    ```python
+      import blog.views
+   
        urlpatterns = [
            ...
            path('', blog.views.home, name='home')
