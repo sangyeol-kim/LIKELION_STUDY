@@ -1,0 +1,17 @@
+{% extends 'layout.html' %} {% block contents %}
+<body>
+  <h1>Sign Up!</h1>
+
+  <form action="{% url 'signup' %}" method="POST">
+    {% csrf_token %} Username:
+    <br />
+    <input type="text" name="username" />
+    <br />
+    Password:<input type="text" name="password1" />
+    <br />
+    Password:<input type="text" name="password2" />
+    <br />
+    <input type="submit" value="회원가입" />
+  </form>
+</body>
+{% endblock %}

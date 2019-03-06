@@ -1,0 +1,29 @@
+{% extends 'layout.html' %}
+
+{% block contents %}
+<body>
+    <div class="container">
+        {% for blog in posts %}
+        <!-- for blog in blogs.all은 전체 블로그 글을 대상으로 반복문
+        for blog in posts는 한 페이지(세 개의 글)을 대상으로 반복문-->
+            <h1>{{blog.title}}</h1>
+            <p>{{blog.pub_date}}</p>
+            <p>{{blog.summary}} <a href="{% url 'detail' blog.id %}">...more</a></p>
+        {% endfor %}
+
+        {% if posts.has_previous %}
+            <a href="?page=1">First</a>
+            <a href="?page={{posts.previous_page_number}}">Previous</a>
+        {% endif %}
+
+        <span>{{posts.number}}</span>
+        <span>of</span>
+        <span>{{posts.paginator.num_pages}}</span>
+
+        {% if posts.has_next %}
+            <a href="?page={{posts.next_page_number}}">Next</a>
+            <a href="?page={{posts.paginator.num_pages}}">last</a>
+        {% endif %}
+    </div>
+</body>
+{% endblock %}
